@@ -33,6 +33,9 @@ a:active {
     padding: 15px;
 }
 
+h1 {
+    color: #155466;
+}
 img{
     border-radius: 5px;
 }
@@ -42,9 +45,11 @@ p{
     text-align: left;
     line-height: 150%;
 }
+
 .btn {
     background-color: #939576;
     border-color: #939576;
+    margin: 15px 0 0 0;
 }
 
 .btn:hover {
@@ -64,7 +69,7 @@ p{
 
 .card {
     background-color: transparent;
-    color: #ffffff;
+    color: #155466;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
     margin: 15px;
 }
@@ -75,6 +80,22 @@ p{
 
 .blockquote-footer {
     color: #155466
+}
+
+form {
+    color: #155466;
+    margin: 15px;
+    padding: 5px;
+}
+
+input {
+    color: #155466;
+    background-color: whitesmoke;
+}
+
+.form-control  {
+    background-color: whitesmoke;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.2);
 }
 
 .end-content {
